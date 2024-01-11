@@ -9,6 +9,10 @@
 
 body {
     background-color: white;
+    background-image: url(../IMAGES/background-image.png);
+    background-size: 680.31px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 /* HEADER STYLING  */
@@ -48,20 +52,13 @@ header {
     display: flex;
 }
 
-.best-div {
-    width: 630px;
-    height: 535px;
-    margin-top: 130px;
-    margin-left: 100px;
-    
-}
-
 .hero-img {
     width: 783.87px;
     height: 764px;
     top: 105px;
     left: 565px;
     margin-right: 75px;
+   
 }
 
 .world {
@@ -74,6 +71,13 @@ header {
     width: 410px;
     color:  #DF6951;
     margin-bottom: 25px;
+}
+
+.best-div {
+    width: 630px;
+    height: 535px;
+    margin-top: 130px;
+    margin-left: 100px;   
 }
 
 .best-div>h1 {
@@ -117,7 +121,7 @@ header {
     width: 1228px;
     height: 525px;
     border: 2px solid blue;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 154px;
 }
 
@@ -140,6 +144,13 @@ header {
     text-align: center;
 
 }
+
+.serv-div {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .weather-div{
     width: 190px;
     height: 227px;
@@ -149,10 +160,6 @@ header {
     background-color: white;
     border: 2px solid yellow;
 
-}
-
-.serv-div {
-    margin-top: 100px;
 }
 
 .weather-div>i {
@@ -184,7 +191,172 @@ letter-spacing: 0em;
 text-align: center;
 width: 150px;
 margin-top: 12px;
+margin-left: 15px;
 }
+
+.flight {
+    width: 302px;
+    height: 348.91px;
+    /* top: 1142.09px; */
+    /* margin-left: 382px; */
+    border: 2px solid blue;
+    display: flex;
+}
+
+.orange-div {
+    width: 100px;
+    height: 100px;
+    /* margin-top: 1391px;
+    margin-left: 382px; */
+    border-radius: 30px 0px 10px 0px;
+    background-color: #DF6951;
+    margin-bottom: 150px;
+
+}
+
+.best-flight {
+    width: 267px;
+height: 314px;
+/* top: 1144px
+left: 417px */
+border-radius: 36px;
+/* border: 2px solid red; */
+margin-left: 30px;
+background-color: white;
+
+}
+
+.best-flight>i{
+    /* width: 92px;
+    height: 78px;
+    margin-top: 1186px;
+    margin-left: 55px;
+    border-radius: 18px, 5px, 10px, 5px; */
+
+    width: 166.87px;
+    height: 153.33px;
+    /* margin-top : 1142.09px; */
+    margin-left: 55px;
+    border-radius: 18px 5px 10px 5px;
+}
+
+.best-flight>h4 {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 190px;
+    /* margin-top: 27px; */
+    margin-left: 30px;
+}
+
+.best-flight>p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 150px;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.local-events {
+
+    width: 190px;
+    height: 227px;
+    top: 1186px;
+    left: 154px;
+    border-radius: 18px, 5px, 10px, 5px;
+    background-color: white;
+    border: 2px solid green;
+
+}
+
+.local-events>i {
+    width: 92px;
+    height: 78px;
+    margin-top: 1186px;
+    margin-left: 70px;
+    border-radius: 18px, 5px, 10px, 5px;
+
+}
+
+.local-events>h4 {
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+width: 190px;
+margin-top: 27px;
+}
+
+.local-events>p {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+width: 150px;
+margin-top: 12px;
+margin-left: 15px;
+}
+
+
+.customization {
+    width: 190px;
+    height: 227px;
+    top: 1186px;
+    left: 154px;
+    border-radius: 18px, 5px, 10px, 5px;
+    background-color: white;
+    border: 2px solid brown;
+
+}
+
+
+.customization>i {
+    width: 92px;
+    height: 78px;
+    margin-top: 1186px;
+    margin-left: 55px;
+    border-radius: 18px, 5px, 10px, 5px;
+
+}
+
+.customization>h4 {
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+width: 190px;
+margin-top: 27px;
+}
+
+.customization>p {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+width: 150px;
+margin-top: 12px;
+margin-left: 15px;
+}
+
+
+
+
+
 
 /* TOP SELLIBG SECTION  */
 
@@ -243,7 +415,7 @@ border-radius: 24px;
 }
 
 .rome {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .italy {
@@ -255,7 +427,7 @@ border-radius: 24px;
 }
 
 .london {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .london-img {
@@ -291,7 +463,8 @@ border-radius: 24px;
 }
 
 .decore {
-    margin-top: 200px;
+    margin-top: 220px;
+   
 }
 
 
