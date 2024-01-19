@@ -132,8 +132,47 @@ header {
     font-size: 18px;
     padding: 23px;
     border: 0px;
+    margin-right: 34px;
 }
 
+
+.game {
+    background-color: #DF6951;
+    width: 52px;
+height: 52px;
+box-shadow: 0px 15px 30px 0px #DF69514D;
+border-radius: 100px;
+    range: -90 deg;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-demo > p {
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #686D77;
+width: 92px;
+height: 26px;
+}
+
+.play-demo {
+    display: flex;
+    align-items: center;
+}
+
+.anchor {
+    color: wheat;
+}
+
+.botton-div {
+    display: flex;
+}
 /* SERVICES SECTION  */
 
 .service-section {
@@ -826,10 +865,9 @@ line-height: 54px;
 letter-spacing: 0em;
 text-align: center;
 margin-left: 170px;
-margin-top: 50px;
 margin-bottom: 100px;
-
 }
+
 
 .subscribe-div > input {
     width: 421px;
@@ -864,7 +902,7 @@ color: #5E6282;
     border-radius: 100px;
     position: relative;
     left: 1120px;
-    top: 78px;
+    top: 30px;
 }
 
 .subscribe > img {
@@ -875,9 +913,164 @@ bottom: 110px;
 left: 1170px;
 }
 
+ /* FOOTER SECTION  */
+
 .footer-div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
+}
+
+.jadoo-div {
+    width: 207px;
+height: 133px;
+}
+
+.jadoo-div > h2 {
+    margin-bottom: 10px;
+    font-family: Poppins;
+font-size: 44px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: #181E4B;
+}
+
+.middle-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 474px;
+height: 153px;
+}
+
+.company-div> h3 {
+    font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+width: 108px;
+height: 26px;
+color: #080809;
+margin-top: 25px;
+margin-bottom: 30px;
+}
+
+.company-div > p {
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #5E6282;
+width: 61px;
+height: 22px;
+}
+
+.contract-div>h3 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 108px;
+    height: 26px;
+    color: #080809;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contract-div>p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #5E6282;
+    width: 61px;
+    height: 22px;
+}
+
+.airline-div>h3 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 108px;
+    height: 26px;
+    color: #080809;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.airline-div{
+    width: 114px;
+    height: 153px;
+}
+
+.airline-div > p {
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #080809;
+}
+    
+.last-div {
+    width: 214px;
+height: 147px;
+border-radius: 17.5px;
+}
+
+.socio-media {
+    width: 177px;
+height: 45px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.discover {
+    width: 214px;
+height: 76px;
+border-radius: 17.5px;
+margin-top: 10px;
+}
+
+.discover >p {
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.005em;
+text-align: left;
+}
+.play {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.rights {
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+margin-top: 100px;
 }
