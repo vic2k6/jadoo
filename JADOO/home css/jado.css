@@ -428,9 +428,24 @@ color: #5E6282;
 
 .top-img {
     display: flex;
-  
 }
 
+.country {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #5E6282;
+}
+
+.amount {
+    margin-left: 100px;
+}
 .destination {
     font-family: Volkhov;
 font-size: 50px;
@@ -445,33 +460,42 @@ margin-bottom: 50px;
 .rome-div {
     width: 314px;
     height: 457px;
-/* top: 1774px; */
-    /* margin-left: 174px; */
     border-radius: 24px;
-    /* border: 2px solid red; */
 }
 
 .rome-img {
     width: 314px;
 height: 457px;
-/* top: 1774px
-left: 174px */
 border-radius: 24px;
 
 }
 
 .rome {
+
     margin-right: 30px;
 }
 
+.vector-div{
+    display: flex;
+}
+
+.vector {
+    margin-left: 29px;
+    margin-right: 20px;
+    width: 20px;
+height: 20px;
+padding: 1.87px, 1.88px, 1.87px, 1.87px;
+background-color: white;
+
+}
 .italy {
-    /* border: 2px solid purple; */
-    /* margin-bottom: 30px; */
     height: 136px;
     background-color: white;
     border-radius: 0px, 0px, 24px, 24px;
+    /* border: 2px solid blue; */
     position: relative;
-    bottom: 135px;
+    bottom: 150px;
+    background-color: whitesmoke;
   
 }
 
@@ -489,12 +513,13 @@ border-radius: 24px;
 
 .london-days {
     /* border: 2px solid purple; */
-    /* margin-bottom: 30px; */
+  
     height: 136px;
     background-color: white;
     border-radius: 0px, 0px, 24px, 24px;
     position: relative;
-    bottom: 135px;
+    bottom: 150px;
+    background-color: whitesmoke;
 }
 
 
@@ -509,22 +534,22 @@ border-radius: 24px;
     left: 174px */
     border-radius: 24px;
 }
-
 .europe-div {
     /* border: 2px solid purple; */
-    /* margin-bottom: 30px; */
+  
     height: 136px;
     background-color: white;
     border-radius: 0px, 0px, 24px, 24px;
     position: relative;
-    bottom: 135px;
+    bottom: 150px;
+    background-color: whitesmoke;
 }
 
 .decore {
     width: 96px;
     height: 252px;
     border-radius: 1px;
-    margin-top: 120px; 
+    margin-top: 140px; 
 }
 
 
@@ -535,7 +560,7 @@ border-radius: 24px;
     height: 492px;
     margin-top: 50px;
     margin-left: 186px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .trip {
@@ -615,12 +640,8 @@ text-align: left;
 
 }
 
-.trip-img {
-    border: 2px solid yellow;
-}
-
 .lady {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 370px;
 height: 400px;
 /* top: 2495px */
@@ -628,12 +649,118 @@ height: 400px;
 border-radius: 26px;
 margin-top: 70px;
 }
+
+.greece > h4{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.greece>p {
+    margin-left: 30px;
+}
 .happy-lady {
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
+.robin {
+    margin-left: 10px;
+}
+
+.leaf-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 139px;
+height: 36px;
+margin-bottom: 40px;
+margin-top: 15px;
+margin-left: 20px;
+}
+
+.leaf {
+    width: 36px;
+height: 36px;
+background-color: whitesmoke;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+}
+.phone {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.going{
+    margin-right: 150px;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #84829A;
+}
+
+.mask-div {
+    width: 263px;
+height: 129px;
+/* border: 1px solid green; */
+background-color: white;
+border-radius: 18px;
+position: relative;
+left: 200px;
+bottom: 160px;
+}
+
+.mask-group {
+    display: flex;
+    margin-left:15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mask-img {
+    margin-right: 15px;
+}
+
+.on {
+    margin-bottom: 5px;
+}
+
+.percent {
+    margin-left: 80px;
+    color: #8A79DF;
+}
+.com {
+    color: black;
+}
+
+.blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.blue-rec {
+    width: 73px;
+height: 5px;
+border-radius: 30px;
+}
+.white-rec {
+    width: 156px;
+height: 5px;
+border-radius: 30px;
+
+}
 
 .book-trip-div {
     width: 395px;
@@ -641,7 +768,7 @@ height: 289px;
 background-color: white;
 left: 186px;
 border-radius: 13px;
-border: 2px solid green;
+/* border: 2px solid green; */
 margin-top: 20px;
 
 }
@@ -657,6 +784,9 @@ border-radius: 13px;
 margin-top: 3px;
 margin-right: 20px;
 margin-bottom: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -672,6 +802,9 @@ margin-bottom: 60px;
     margin-right: 20px;
     background-color: #F15A2B;
     margin-bottom: 60px;
+    display: flex;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -685,7 +818,12 @@ margin-bottom: 60px;
     margin-top: 3px;
     margin-right: 20px;
     background-color: #006380;
+    display: flex;
+align-items: center;
+justify-content: center;
 }
+
+
 
 /* TESTIMONY SECTION  */
 
@@ -850,22 +988,23 @@ margin-top: 20px;
     border-radius: 20px, 129px, 20px, 20px;
     opacity: 0.1px;
     margin-left: 30px;
-/* border: 1px solid green; */
+border: 1px solid #DFD7F9;
 background-color: #DFD7F9;
 
 }
 
-.subscribe-div > p {
+.sub {
     width: 859px;
-height: 108px;
-font-family: Poppins;
-font-size: 33px;
-font-weight: 600;
-line-height: 54px;
-letter-spacing: 0em;
-text-align: center;
-margin-left: 170px;
-margin-bottom: 100px;
+    height: 108px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 
